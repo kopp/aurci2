@@ -1,6 +1,12 @@
 name: Make Repository
 
-on: [push]
+on:
+  push:
+    branches:
+      - master
+      - debug
+  schedule:
+    - cron: "21 4 * * 0"
 
 jobs:
   build_repository:
@@ -9,12 +15,40 @@ jobs:
     - name: Get current time and date
       id: date
       run: echo "::set-output name=date::$(date +'%Y-%m-%d %H:%M')"
+
     - name: Build Packages
-      uses: kopp/build-aur-packages@d7104ff
+      uses: kopp/build-aur-packages@v1
       with:
-        packages: mons
+        packages: >
+          azure-cli
+          conan
+          fuse-overlayfs-git
+          micronucleus-git
+          mons
+          neovim-symlinks
+          onedrive-abraunegg
+          python-pydub
+          python-pyminifier
+          simple-mtpfs
+          skypeforlinux-stable-bin
+          srecord
+          ttf-cheapskate
+          ttf-freebanglafont
+          ttf-mph-2b-damase
+          ttf-ubraille
+          vdhcoapp-bin
+          xfig
+        missing_pacman_dependencies: >
+          libusb-compat
+
     - name: List generated Files
       run: ls -1 > ${{ github.workspace }}/files.txt
+    - name: Remove the current data from the release
+      uses: kopp/action-delete-release@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        tag_name: aurci2
     - name: Upload Files to Release
       uses: softprops/action-gh-release@v1
       env:
