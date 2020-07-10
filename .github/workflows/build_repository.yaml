@@ -1,0 +1,29 @@
+name: Make Repository
+
+on: [push]
+
+jobs:
+  build_repository:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Get current time and date
+      id: date
+      run: echo "::set-output name=date::$(date +'%Y-%m-%d %H:%M')"
+    - name: Build Packages
+      uses: kopp/build-aur-packages@d7104ff
+      with:
+        packages: mons
+    - name: List generated Files
+      run: ls -1 > ${{ github.workspace }}/files.txt
+    - name: Upload Files to Release
+      uses: softprops/action-gh-release@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        tag_name: aurci2
+        name: aurci build ${{ github.run_number }} from ${{ steps.date.outputs.date }}
+        body: aurci build ${{ github.run_number }} from ${{ steps.date.outputs.date }}
+        files: |
+          ${{ github.workspace }}/*
+        draft: false
+        prerelease: false
