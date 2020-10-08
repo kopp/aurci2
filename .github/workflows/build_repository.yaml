@@ -30,6 +30,7 @@ jobs:
           python-pydub
           python-pyminifier
           simple-mtpfs
+          jmtpfs
           skypeforlinux-stable-bin
           srecord
           ttf-cheapskate
