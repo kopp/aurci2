@@ -38,6 +38,7 @@ jobs:
           ttf-mph-2b-damase
           ttf-ubraille
           vdhcoapp-bin
+          visual-studio-code-bin
           xfig
         missing_pacman_dependencies: >
           libusb-compat
