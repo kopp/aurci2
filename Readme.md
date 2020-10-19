@@ -24,6 +24,7 @@ Server = https://github.com/kopp/aurci2/releases/download/aurci2
 Should you want to setup a similar repository for you, you can easily do so.
 
 1. Fork this repository.
-1. In the Actions tab, enable the actions.
 1. Modify the packages to be built in the file
    [`.github/workflows/build_repository.yaml`](.github/workflows/build_repository.yaml)
+   (symlinked for convenience to [`build_repository.yaml`](build_repository.yaml)).
+1. In the Actions tab, enable the actions.
