@@ -40,8 +40,6 @@ jobs:
           vdhcoapp-bin
           visual-studio-code-bin
           xfig
-        missing_pacman_dependencies: >
-          libusb-compat
 
     - name: List generated Files
       run: ls -1 > ${{ github.workspace }}/files.txt
