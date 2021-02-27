@@ -26,6 +26,7 @@ jobs:
           mons
           neovim-symlinks
           onedrive-abraunegg
+          python-ipympl
           python-pydub
           python-pyminifier
           jmtpfs
