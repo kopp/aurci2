@@ -22,21 +22,15 @@ jobs:
         packages: >
           azure-cli
           conan
-          fuse-overlayfs-git
           micronucleus-git
           mons
           neovim-symlinks
           onedrive-abraunegg
           python-pydub
           python-pyminifier
-          simple-mtpfs
           jmtpfs
           skypeforlinux-stable-bin
           srecord
-          ttf-cheapskate
-          ttf-freebanglafont
-          ttf-mph-2b-damase
-          ttf-ubraille
           vdhcoapp-bin
           visual-studio-code-bin
           xfig
