@@ -17,7 +17,7 @@ jobs:
       run: echo "::set-output name=date::$(date +'%Y-%m-%d %H:%M')"
 
     - name: Build Packages
-      uses: kopp/build-aur-packages@v1
+      uses: kopp/build-aur-packages@v1-glibcfix
       with:
         packages: >
           azure-cli
