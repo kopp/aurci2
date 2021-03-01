@@ -32,6 +32,7 @@ jobs:
           jmtpfs
           skypeforlinux-stable-bin
           srecord
+          teams
           vdhcoapp-bin
           visual-studio-code-bin
           xfig
