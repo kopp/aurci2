@@ -23,16 +23,13 @@ jobs:
           azure-cli
           conan
           micronucleus-git
-          mons
           neovim-symlinks
           onedrive-abraunegg
           python-ipympl
           python-pydub
-          python-pyminifier
           jmtpfs
           skypeforlinux-stable-bin
           srecord
-          sourcetrail
           teams
           vdhcoapp-bin
           visual-studio-code-bin
