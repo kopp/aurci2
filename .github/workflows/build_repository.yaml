@@ -29,6 +29,7 @@ jobs:
           python-ipympl
           python-pydub
           jmtpfs
+          qtfm
           skypeforlinux-stable-bin
           srecord
           teams
