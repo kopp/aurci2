@@ -26,6 +26,7 @@ jobs:
           neovim-symlinks
           nsis
           onedrive-abraunegg
+          python-folium
           python-ipympl
           python-pydub
           jmtpfs
