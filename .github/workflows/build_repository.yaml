@@ -19,6 +19,8 @@ jobs:
     - name: Build Packages
       uses: kopp/build-aur-packages@v1
       with:
+        missing_pacman_dependencies: >
+          python-pytest
         packages: >
           azure-cli
           conan
