@@ -19,9 +19,6 @@ jobs:
     - name: Build Packages
       uses: kopp/build-aur-packages@v1
       with:
-        missing_pacman_dependencies: >
-          python-pytest
-          firefox
         packages: >
           azure-cli
           conan
@@ -29,7 +26,7 @@ jobs:
           neovim-symlinks
           nsis
           onedrive-abraunegg
-          python-folium
+          #python-folium  # requires python-branca which has failing tests due to missing dependencies and GitHub Action issues
           python-ipympl
           python-pydub
           jmtpfs
