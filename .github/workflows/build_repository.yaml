@@ -26,14 +26,12 @@ jobs:
           neovim-symlinks
           nsis
           onedrive-abraunegg
-          #python-folium  # requires python-branca which has failing tests due to missing dependencies and GitHub Action issues
           python-ipympl
           python-pydub
           jmtpfs
           qtfm
           skypeforlinux-stable-bin
           srecord
-          # teams  # currently not needed
           vdhcoapp-bin
           visual-studio-code-bin
           xfig
