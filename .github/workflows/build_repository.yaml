@@ -33,7 +33,7 @@ jobs:
           qtfm
           skypeforlinux-stable-bin
           srecord
-          teams
+          # teams  # currently not needed
           vdhcoapp-bin
           visual-studio-code-bin
           xfig
