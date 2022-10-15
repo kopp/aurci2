@@ -23,7 +23,6 @@ jobs:
           azure-cli
           conan
           micronucleus-git
-          nanoflann
           neovim-symlinks
           nsis
           onedrive-abraunegg
