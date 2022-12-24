@@ -20,6 +20,7 @@ jobs:
       uses: kopp/build-aur-packages@v1
       with:
         packages: >
+          arduino-ide-bin
           azure-cli
           conan
           micronucleus-git
