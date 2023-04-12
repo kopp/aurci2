@@ -25,6 +25,7 @@ jobs:
           conan
           flutter
           micronucleus-git
+          microsoft-edge-stable-bin
           neovim-symlinks
           nsis
           onedrive-abraunegg
