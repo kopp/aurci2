@@ -23,7 +23,6 @@ jobs:
           arduino-ide-bin
           azure-cli
           conan
-          firebase-tools-bin
           flutter
           micronucleus-git
           neovim-symlinks
