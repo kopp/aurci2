@@ -7,6 +7,9 @@ to build
 and provide the built packages as
 [release](https://github.com/kopp/aurci2/releases/tag/aurci2).
 
+Build status:
+![build status](https://github.com/kopp/aurci2/actions/workflows/build_repository.yaml/badge.svg?branch=master)
+
 
 # Use this Repository with `pacman`
 
