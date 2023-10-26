@@ -30,6 +30,7 @@ jobs:
           nsis
           onedrive-abraunegg
           python-pydub
+          python-selenium
           jmtpfs
           qtfm
           skypeforlinux-stable-bin
