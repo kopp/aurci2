@@ -32,6 +32,7 @@ jobs:
           python-pydub
           python-selenium
           selenium-manager
+          uv-bin
           jmtpfs
           qtfm
           skypeforlinux-stable-bin
