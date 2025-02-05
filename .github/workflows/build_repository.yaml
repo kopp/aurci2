@@ -23,6 +23,7 @@ jobs:
           arduino-ide-bin
           azure-cli
           conan
+          google-cloud-cli
           micronucleus-git
           microsoft-edge-stable-bin
           neovim-symlinks
