@@ -35,7 +35,6 @@ jobs:
           jmtpfs
           qtfm
           skypeforlinux-stable-bin
-          srecord
           tp-battery-mode
           vdhcoapp-bin
           visual-studio-code-bin
