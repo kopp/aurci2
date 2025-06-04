@@ -38,7 +38,6 @@ jobs:
           tp-battery-mode
           vdhcoapp-bin
           visual-studio-code-bin
-          xfig
 
     - name: List generated Files
       run: ls -1 > ${{ github.workspace }}/files.txt
