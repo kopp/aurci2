@@ -31,6 +31,7 @@ jobs:
           python-pydub
           python-selenium
           selenium-manager
+          signal-cli-native
           uv-bin
           jmtpfs
           qtfm
