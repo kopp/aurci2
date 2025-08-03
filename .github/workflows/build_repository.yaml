@@ -29,7 +29,6 @@ jobs:
           microsoft-edge-stable-bin
           neovim-symlinks
           onedrive-abraunegg
-          python-pydub
           python-selenium
           selenium-manager
           uv-bin
