@@ -23,6 +23,7 @@ jobs:
           arduino-ide-bin
           azure-cli
           conan
+          getmail6
           google-cloud-cli
           micronucleus-git
           microsoft-edge-stable-bin
