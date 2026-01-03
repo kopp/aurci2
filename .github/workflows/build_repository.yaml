@@ -35,6 +35,7 @@ jobs:
           jmtpfs
           qtfm
           skypeforlinux-stable-bin
+          teamviewer
           tp-battery-mode
           vdhcoapp-bin
           visual-studio-code-bin
