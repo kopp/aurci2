@@ -17,7 +17,7 @@ jobs:
       run: echo "::set-output name=date::$(date +'%Y-%m-%d %H:%M')"
 
     - name: Build Packages
-      uses: kopp/build-aur-packages@v1
+      uses: kopp/build-aur-packages@24955279fbccc5c98ede0c186c5937eb0e9f9668
       with:
         packages: >
           android-studio
