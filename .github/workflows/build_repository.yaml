@@ -25,6 +25,7 @@ jobs:
           azure-cli
           conan
           getmail6
+          github-copilot-cli-bin
           google-cloud-cli
           micronucleus-git
           microsoft-edge-stable-bin
